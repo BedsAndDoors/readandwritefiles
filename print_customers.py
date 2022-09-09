@@ -1,5 +1,4 @@
 import csv
-from tkinter import Y
 
 infile = open('customers.csv','r')
 csvfile = csv.reader(infile,delimiter=',')
@@ -12,4 +11,5 @@ for record in csvfile:
     print('Phone: ', record[5])
 
     input()
+    
     
