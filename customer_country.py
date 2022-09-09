@@ -18,6 +18,7 @@ for record in csvfile:
     writer.write(LN + ', ')
     writer.write(CNTRY + "\n")
 
+outfile.close()
         
 
 
